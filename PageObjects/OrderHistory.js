@@ -28,6 +28,7 @@ class OrderHistory
     }
    async validateOrder()
    {
+    console.log("I am here")
         return this.orderID.textContent();
     }
 }
