@@ -28,7 +28,7 @@ class OrderHistory
     }
    async validateOrder()
    {
-    console.log("I am here1")
+    console.log("I am here1");
         return this.orderID.textContent();
     }
 }
